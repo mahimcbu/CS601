@@ -1,19 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Mahim's work experiences</title>
-</head>
-<body>
-    <header>
-        <nav>  
-            <ul> 
-                <li><a href = 'work.html'>Work</a></li>  
-                <li><a href= 'About.html'>About me</a></li>    
-                <li><a href='index.html'>Home</a></li> 
-                
-            </ul>
-        </nav>
-    </header>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mahim's work experiences</title>
+    </head>
+    <body>
+        <header> <!--Header section contain the nav bar-->
+            <nav>  <!--This is the navigation section. I formatted the lists to flatten out. It makes it look better-->
+                <ul class = "Top menu bar" 
+                    style="display: inline-flex;
+                    gap:12px;
+                    margin: auto;
+                    background-color: aqua;
+                    list-style-type: none;">   
+                    <li><a href = 'work.html'>Work</a></li>  
+                    <li><a href= 'About.html'>About me</a></li>    
+                    <li><a href='index.html'>Home</a></li>
+                    <li><a href = 'Feedback.html'>Feedback</a></li>   
+                    
+                </ul>
+            </nav>
+        </header>
+        <main> <!--This main section is the middle part of the body-->
+        
+            <section class="Breif work history"><!--Broke down the contents into sections-->
+                <h1>A breif description of my previous work experiences</h1>
+                <article>
+                    I started as a lab technician at Stony brook during my Sophmore year and then acquired an
+                    engineering internship with a local engineering company named Air Techniques. After graduation,
+                    I moved to St.Louis to work as a firmaware engineer at Boeing. The facility mainly produces Defense 
+                    products. During pandemic, I switced job to move to eas coast. I joined Lockheed martin at
+                    in their NJ facilty. I have been happily employed at this company ever since. To make it easier,
+                    here is the history in a table format,
+                    <table style="width:100%;">
+                        <tr style="border: 1px solid #070000"> <!--table row-->
+                          <th style="border: 1px solid #070000">Company</th> <!--Table header-->
+                          <th style="border: 1px solid #070000">Role</th>
+                          <th style="border: 1px solid #070000">State</th>
+                        </tr>
+                        <tr style="border: 1px solid #070000">
+                          <td style="border: 1px solid #070000">Air techniques</td>
+                          <td style="border: 1px solid #070000">Engineering intern</td>
+                          <td style="border: 1px solid #070000">New York</td>
+                        </tr>
+                        <tr>
+                          <td style="border: 1px solid #070000">Boeing</td>
+                          <td style="border: 1px solid #070000">Firmware Engineer</td>
+                          <td style="border: 1px solid #070000">Missouri</td>
+                        </tr>
+                        <tr>
+                            <td style="border: 1px solid #070000">Lockheed Martin</td>
+                            <td style="border: 1px solid #070000">Embedded electronics Engineer</td>
+                            <td style="border: 1px solid #070000">New Jersey</td>
+                          </tr>
+                      </table>
+                </article><hr>
+            </section>
+            <section class="Current responsibilties">
+                <h1>What do I do at my current rule?</h1>
+                <article>Almost all the works done at Lockheed martin's NJ facility are classified works. We primaryly make solid state radars
+                    for both US and our allies. There are some space fense related works as well. Our work involves technical excellence, customer
+                    relationship, and traveling to various product sites. 
+                    <a href="https://www.lockheedmartin.com/en-us/index.html">Lockheed martin</a> always likes innovation and encourages employees to pursue higher studies.<hr>
+                    Here are some of the products proudly made
+                </article>
+                <img alt="A picture of F-22 fighter jet" src="https://hips.hearstapps.com/hmg-prod/images/raptor-overflies-during-the-international-air-and-space-news-photo-1662577127.jpg" width="440" height="500">
+                <img alt=" A picture of F35 fighter jet" src="https://www.airandspaceforces.com/app/uploads/2022/08/7370566-900x600.jpg" style="float:right;width:480px;height:500px">
+                <img alt="A black hawk helicopter" src="https://api.army.mil/e2/c/images/2020/09/25/b13eb89b/max1200.jpg" width="450" height="500">
+                <img alt=" A picture of the LRDR radar" src="https://www.defensenews.com/resizer/hPGrhWF5x5Expy3xFam98_H3VcM=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/67PLGUPAZVHMDBPQMMJWLLKOFE.jpg" style="float:right;width:450px;height:500px"><hr>
+            </section> 
+        </main>
+        <footer> <!--This is the end of the page-->
+            <h1>Thank you for reading my work history</h1>
+        </footer>
+    </body>
 </html>
