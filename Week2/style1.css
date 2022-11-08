@@ -1,4 +1,47 @@
-h1 {
-    color: red;
 
+#nav {
+    text-align: right;
+}
+.nav-bar-home{
+    border: solid purple;
+    color: green;
+}
+li {
+    display: inline-block;
+}
+.hobbies{
+    display:list-item;
+    list-style-type: circle;
+}
+.titles {
+    display: list-item;
+    list-style-type: disc;
+    text-align: left;
+}
+.profile-photo {
+    border-radius: 10px;
+    
+}
+#ul1 {
+    text-align: left;
+}
+
+.home-page{
+    background-color: #FFE5E5;
+    text-align: center;
+}
+.about-page{
+
+}
+.hobbies-page {
+
+}
+.work-page{
+
+}
+.liverpool-page{
+
+}
+.feedback-page{
+    
 }
