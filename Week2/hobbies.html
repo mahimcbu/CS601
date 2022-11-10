@@ -7,42 +7,43 @@
     </head>
     <body class="hobbies-page">
         <header><!--Header section contain the nav bar-->
-            <nav>
-                <ul id="nav">
-                    <li><a href= 'index.html'>Home</a></li> |
-                    <li><a href= 'about.html'>About me</a></li> |
-                    <li><span>Hobbies</span></li> | 
-                    <li><a href= 'work.html'>Work</a> </li> | 
-                    <li><a href ='liverpool.html'>Liverpool FC</a> </li> |        
-                    <li><a href = 'feedback.html'>Feedback</a></li> 
+            <nav class="nav-bar">  <!--This is the navigation section.-->
+                <ul class="navul">
+                    <li class="main-menu-list"><a id="li1" href= 'index.html'>Home</a></li>
+                    <li class="main-menu-list"><a id="li1" href= 'about.html'>About me</a></li>
+                    <li class="main-menu-list"><span id="li1">Hobbies</span></li>  
+                    <li class="main-menu-list"><a id="li1" href = 'work.html'>Work</a> </li> 
+                    <li class="main-menu-list"><a id="li1" href ='liverpool.html'>Liverpool FC</a> </li>        
+                    <li class="main-menu-list feedback"><a id="li1" href = 'feedback.html'>Feedback</a></li> 
                 </ul> 
             </nav>     
         </header>
+
         <main> <!--This main section is the middle part of the body-->
-            <section class = "listed hobbies"> <!--Broke down the contents into sections-->
-                <h1>Few of my hobbies are:</h1>
-                <ul id="ul1">
-                     <li class="hobbies">Watching English premier league soccer</li>
-                     <li class="hobbies">Travelling</li>
-                     <li class="hobbies">Weekend Cooking</li>
-                     <li class="hobbies">Playing fifa <br>
-                        <img src="https://library.sportingnews.com/styles/crop_style_16_9_mobile_2x/s3/2022-08/kk.jpg?itok=xhhOmPw7" 
+            <section class = "listed-hobbies"> <!--Broke down the contents into sections-->
+                <h1 class="hobbies-intro-header">Here are my favorite hobbies </h1>
+                <ul class="hobbies-ul">
+                     <li class="hobbies-list">Watching English premier league soccer</li>
+                     <li class="hobbies-list">Travelling</li>
+                     <li class="hobbies-list">Weekend Cooking</li>
+                     <li class="hobbies-list">Playing fifa <br>
+                        <img class="fifa-img"src="https://library.sportingnews.com/styles/crop_style_16_9_mobile_2x/s3/2022-08/kk.jpg?itok=xhhOmPw7" 
                         alt="fifa 23 game logo picture" height="80" width="150">
                      </li>
-                     <li class="hobbies">Playing fps games <br>
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4o6LNlG1Funs0vQCpEEpIcMJIzn9_yXot2_wZ2B0u&s"
+                     <li class="hobbies-list">Playing fps games <br>
+                        <img class="cod-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4o6LNlG1Funs0vQCpEEpIcMJIzn9_yXot2_wZ2B0u&s"
                          alt="call of duty MW2 game logo" height="70" width="150">
                      </li>
                 </ul>
              </section> 
-             <section class="Travel map"><!--another section just for travelling-->
-                <h3>Here is a live map of places I have visited in the USA so far.
+             <section class="travel"><!--another section just for travelling-->
+                <h3 class="travel-paragraph">Here is a live map of places I have visited in the USA so far.
                     I plan to continue to visit more places and explore various culture around this 
                     magnificient land.
                 </h3>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1bHPZfmYtRxdV64paAo71pPjc64oj7jc&ehbc=2E312F" width="640" height="480"></iframe>
+                <center class="travel-map"><iframe src="https://www.google.com/maps/d/embed?mid=1bHPZfmYtRxdV64paAo71pPjc64oj7jc&ehbc=2E312F" width="640" height="480"></iframe></center>
              </section>
-             <article class="travel activities">
+             <article class="travel-activities">
                 <h1>What do I like to do when I travel?</h1><hr>
                 <p>
                     I like to travel with friends and family. Travelling is boring if you don't have any accompany. I travelled with multiple friends in my college life.
@@ -52,9 +53,9 @@
                 </p>
              </article>
         </main>
-        <footer><!--This is the end of the page-->
-            <p>Thank you for showing your interest in learning more about my hobbies!</p> 
-            &copy; Copyright 2022 | Mahim Choudhury
+        <footer class="foot"> <!--This is the end of the page-->
+            <p class="footer-paragraph">Thank you for visiting my web site! Please don't forget to contact me for any information.</p> <br>
+            <section class="copyright">&copy; Copyright 2022 | Mahim Choudhury</section>
         </footer>
 
     </body>
