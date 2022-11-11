@@ -474,6 +474,23 @@ display: inline-block;
       padding: 10px 20px;
       background-color: aliceblue;
   }
+  .about-footer {
+    position: relative;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: white;
+    background-color: black;
+  }
+  
+  .about-footer .copyright{
+    position: absolute;
+    width: 100%;
+    color: #fff;
+    line-height: 40px;
+    font-size: 0.7em;
+    text-align: center;
+    bottom:0;
+  }
 
   
   /* ***************** Hobbies page ******************* */
