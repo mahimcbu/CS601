@@ -88,6 +88,7 @@ nav ul li a:hover{
     display: block;
     width: 100%;
     height: 100vh;
+    transition: all 4s;
 }
 .intro h1{
    font-size: 50px;
@@ -104,10 +105,11 @@ nav ul li a:hover{
    margin-left: 20%;
    line-height: 2em;
    justify-content: space-between;
+   /* text-align: justify; */
    
 }
 .intro-paragraph span{
-   font-weight: bold italic;
+   font-weight: bold;
    font-size: 300%;
    font-family:cursive;
    
@@ -126,6 +128,15 @@ nav ul li a:hover{
    top: 30%;
    border-radius: 15px;
 
+}
+.profile-photo1:hover{
+    transform: scale(1.1);
+}
+.profile-photo2:hover{
+    transform: scale(1.1);
+}
+.profile-photo3:hover{
+    transform: scale(1.1);
 }
 .intro .profile-photo2{
    width: 15%;
@@ -222,6 +233,8 @@ nav ul li a:hover{
     bottom:0;
   }
 
+ 
+
 /* ***************** Hobbies page ******************* */
 
   .hobbies-intro-header
@@ -266,6 +279,7 @@ nav ul li a:hover{
   }
   
   .travel-map {
+      text-align: center;
       background-image: url("lake.jpg");
       background-size: cover;
   }
@@ -493,7 +507,7 @@ display: inline-block;
        
     }
     .intro-paragraph span{
-       font-weight: bold italic;
+       font-weight: bold;
        font-size: 250%;
        font-family:cursive;
        
@@ -627,6 +641,7 @@ display: inline-block;
  }
 
  .travel-map {
+     text-align: center;
      background-image: url("lake.jpg");
      background-size: cover;
  }
@@ -847,7 +862,7 @@ display: inline-block;
        
     }
     .intro-paragraph span{
-       font-weight: bold italic;
+       font-weight: bold;
        font-size: 160%;
        font-family:cursive;
        

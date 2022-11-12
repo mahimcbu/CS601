@@ -1,13 +1,6 @@
-Hi Josh, For week1, I have developed a biograhy website of me. I created 6 tabs to begin with and I made sure the htmls are validated throught the W3 validator link provided in the assignment1 document. I made sure to follow the following rules:
-
-1. html5 semantics only  and no styling. 
-2. At least one picture in each of the pages.
-3. External and internal links
-4. Audio player(mp3)
-5. lists and tables in 1 or multiple pages.
-
-In the Hobbies page, I went above and beyond by including a live google map that has my visited locations marked. I think it is unique feature to inlcude in a website
-and give the audience something interesting to read/view.
-
-I don't have a software development background and this is new to me. I tried my best to make the website as filling as possible but hope to learn more advanced features
-in the following weeks. 
+Hi Josh, For week2 iteration, I have styled the html based biography website created during the week1 iteration.
+I have validated both HTML and CSS codes using the validator link provided in the assignment document. 
+I have styled all the important elements using css and made sure all of them use more than one property value as part of going above and beyond. 
+You might notice the css style.css link has codes for three different screen sizes. I used media-query to break down screen sizes by pixels and then applied different characteristics to 
+Make it easy to understand the differences in the page layout. Additionally, added some text animation after doing some research. I struggled with css grid layout. It would have been nice to get some more 
+Exposure to grids, flex box, etc. I understand it's a research-based school but for CS601, the requirement should have said it's for those who have a web development background. I think people with prior knowledge will develop their websites with more advanced css styling which may not be true for a beginner. 
