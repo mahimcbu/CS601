@@ -1,0 +1,30 @@
+
+   .form-body{
+    border: 1px solid #111;
+    border-radius: 2em;
+    padding: 1em 1em;
+    margin-bottom: 10px;
+  }
+ 
+ input[type=text] {
+    width: 100%;
+    padding: 10px 2px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 255, 0, .2);
+  }
+  .radio, .checkbox{
+    margin-bottom: 8px;
+  }
+
+  .submit-button{
+    background-color: blue;
+    padding: 10px;
+    color: #fff;
+    font-size: large;
+    width: 100%;
+  }
+
+ 
+
+ 

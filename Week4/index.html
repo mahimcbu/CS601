@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form action= "https://cs601.bu-course-examples.com/hw4/380a98f5-5191-496f-8aa1-7acc1da83cc5" 
+    onsubmit="return validateForm()" method="post">
+        <section class="form-body">
+            <section class = "feedback-form"> <!--Broke down the contents into sections-->
+                    First Name(required): <br><input type="text" name="firstname" id="firstname" placeholder="first name..." required><br>
+                    Last Name(required): <br><input type="text" name="lastname" id="lastname" placeholder="last name..." required><br>
+                    Facilitator(required): <br><input type="text" id="facilitator" name="facilitator" placeholder="facilitator name..."  required><br>
+            </section>
+            <section class="radio">
+                Favorite city: <br>
+                <input type="radio" name="radioMessage" value="New York"> New York <br>
+                <input type="radio" name="radioMessage" value="Chicago"> Chicago<br>
+                <input type="radio" name="radioMessage" value="Paris"> Paris <br>
+            </section>
+            <section class="checkbox">
+                Pets: <br>
+                <input type="checkbox" name="checkBox" value="Cat">Cat
+                <input type="checkbox" name="checkBox" value="Dog">Dog
+                <input type="checkbox" name="checkBox" value="Fish">Fish
+            </section>
+        </section>
+        <input class="submit-button" type="submit" value="Submit">
+
+    </form>
+   <script src="./script.js"></script>
+       
+</body>
+</html>
