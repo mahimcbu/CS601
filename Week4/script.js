@@ -16,7 +16,7 @@ function validateForm(){
     if ((!(firstName.value.match(regex)) || !(lastName.value.match(regex))) || ((firstName.value.length <=2)||(lastName.value.length<=2)) || (checkNames==false))
   
     {
-        alert("Invalid name");
+        alert("Invalid input");
         return false;
     }
     return true;
