@@ -1,6 +1,6 @@
 function validateForm(){
-    var firstname = document.getElementById("firstname");
-    var lastname = document.getElementById("lastname");
+    var firstname = document.getElementById("firstName");
+    var lastname = document.getElementById("lastName");
     var facilitator = document.getElementById("facilitator");
     var regex = /^[A-Za-z]+$/;
     var validNames = ["Jen", "Josh","Chris","Christian","Behdad"]; //store the facilitator names in an array
@@ -13,7 +13,7 @@ function validateForm(){
             checkNames = false; 
         }
     }
-    if ((!(firstname.value.match(regex)) || !(lastname.value.match(regex))) || ((firstname.value.length <=2)||(lastname.value.length<=2)) || (checkNames==false))
+    if ((!(firstName.value.match(regex)) || !(lastName.value.match(regex))) || ((firstName.value.length <=2)||(lastName.value.length<=2)) || (checkNames==false))
   
     {
         alert("Invalid name");

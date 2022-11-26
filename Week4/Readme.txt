@@ -1,0 +1,2 @@
+Hi Josh,
+For week4 I created a form following the instructions from the assignment guide. I added some comments to the code to help understand the process. I also added css styling but didn't over do it. Validated my html and css. Tha javascript has the validateForm function where I check for every conditions mentioned in the guide to validate form entry. 
