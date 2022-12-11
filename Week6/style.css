@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#app{
+    display: block;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+
+p{
+    font-weight: bold;
+}
+
+img{
+    width: 400px;
+    height: 500px;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Random Images</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <div id="app">
+    <h1>Random Person's images at different ages</h1>
+    <p>Hover your mouse over the picture.</p>
+    <img :src="currentPic" alt="Current Picture" @mouseover="changePic">
+    <p>Pic number: {{nowShowing}}</p>
+  </div>
+  <script src="./script.js"></script>
+
+</body>
+</html>
